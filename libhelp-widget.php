@@ -29,7 +29,7 @@ class LibHelpWidget extends WP_Widget
  
     echo $before_widget;
 
-    $content = '<h1 class="chat-icon">Live Chat</h1>';
+    $content = '<h1 class="chat-icon">Need Help?</h1>';
 	$content .='<div class="needs-js textwidget">Chat service is unavailable. Please ensure that <a href="http://enable-javascript.com/">Javascript is enabled</a></div>';
  	
  	echo $content;
